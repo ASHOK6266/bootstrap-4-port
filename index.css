@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+}
+.carousel-inner img{
+    width: auto;
+    height: auto;
+}
