@@ -1,9 +1,14 @@
+@import "../bootstrap-sass/bootstrap/variables";
+
 body{
     background-color:white;
 }
 .carousel-inner img{
     width: auto;
     height: 750px;
+}
+.carousel-inner p,h5{
+    color:black;
 }
 .col-sm{
     width: 250px;
@@ -16,10 +21,12 @@ body{
 .col-sm h4{
     text-align: center;
     color: inherit;
+
 }
 .col-sm img{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
+
 }
 #boxes{
     margin-top: 150px;
