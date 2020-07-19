@@ -1,7 +1,24 @@
 body{
-    background-color: black;
+    background-color:black;
 }
 .carousel-inner img{
     width: auto;
-    height: 500px;
+    height: 650px;
+}
+.col-sm{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid black;
+}
+.col-sm h4{
+    text-align: center;
+}
+.col-sm img{
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px;
 }
