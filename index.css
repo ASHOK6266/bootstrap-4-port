@@ -3,7 +3,7 @@ body{
 }
 .carousel-inner img{
     width: auto;
-    height: 650px;
+    height: 750px;
 }
 .col-sm{
     width: 250px;
@@ -15,10 +15,15 @@ body{
 }
 .col-sm h4{
     text-align: center;
+    color: inherit;
 }
 .col-sm img{
-    align-items: center;
     width: 150px;
     height: 150px;
-    margin: 5px 5px;
+}
+#boxes{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
