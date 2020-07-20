@@ -1,7 +1,9 @@
 @import "../bootstrap-sass/bootstrap/variables";
 
 body{
-    background-color:white;
+    background-color:#191970;
+    color: black;
+    font-weight: bold;
 }
 .carousel-inner img{
     width: auto;
