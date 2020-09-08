@@ -249,19 +249,19 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form action="mail.php" method="post">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your email" name="email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="pleasure to have your feedbacks"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="pleasure to have your feedbacks"  name="message" ></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">submit</button>
+            <button type="submit" class="btn btn-primary" name="submit">submit</button>
           </div>
           </form>
       </div>
@@ -275,8 +275,6 @@
   </div>
 </footer>
 <!-- Footer -->
-      
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
